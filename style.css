@@ -1,0 +1,156 @@
+html {
+	font-size: 62.5%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	position: absolute;
+	top: 12px;
+	right: 30px;
+}
+
+header a:link,
+a:visited,
+a:active {
+	color: black;
+	font-size: 1.6rem;
+	text-decoration: none;
+	margin-right: 8px;
+	margin-left: 8px;
+	position: relative;
+}
+
+header a:hover {
+	text-decoration: underline;
+}
+
+#bar {
+	width: 20px;
+	height: 20px;
+}
+
+#homes {
+	border-radius: 50%;
+	background: brown;
+	color: cornsilk;
+	font-size: 1.6rem;
+}
+
+
+div {
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding-top: 13%;
+	;
+}
+
+div img {
+	width: 270px;
+	height: 100px;
+	margin: 10px;
+	margin-top: -35px;
+}
+
+#search {
+	width: 560px;
+	height: 40px;
+	border-top: 1px solid rgb(194, 194, 194);
+	border-bottom: 1px solid rgb(194, 194, 194);
+	border-right: 1px solid rgb(194, 194, 194);
+	border-left: 1px solid rgb(194, 194, 194);
+	border-radius: 20px;
+	background-color: white;
+	background-image: url("/698956-icon-111-search-512.webp");
+	background-position: 10px 10px;
+	background-size: auto;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+}
+
+button {
+	border: 1px solid white;
+	background: rgb(243, 243, 243);
+	color: black;
+	margin-left: 4px;
+	margin-right: 4px;
+	font-size: 1.4rem;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+
+button:hover {
+	color: rgb(42, 42, 42);
+	cursor: pointer;
+}
+
+
+#Language {
+	color: rgb(80, 79, 79);
+	font-size: 1.6rem;
+}
+
+
+section a:link,
+a:visited,
+a:active {
+	text-decoration: none;
+	font-size: 1.3rem;
+	margin: 2px;
+}
+
+.link {
+	color: rgb(3, 3, 161) !important;
+}
+
+section a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: rgb(245, 241, 241);
+	padding-top: 22px;
+	border-top: 1px solid rgb(245, 241, 241);
+}
+
+
+footer a:link,
+a:visited,
+a:active {
+	color: rgb(105, 103, 103);
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+.leftlinks {
+	position: relative;
+	bottom: 12px;
+	left: 18px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 1.6rem;
+}
+
+.rightlinks {
+	position: relative;
+	bottom: 9px;
+	float: right;
+	right: 18px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 1.6rem;
+}
